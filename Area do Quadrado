@@ -1,9 +1,7 @@
 algoritmo "AreaDoQuadrado"
 // Disciplina: PA 
-// Professora:
-// Turma:
-// Nome:
-// Data:
+// Turma: 1ºC
+// Nome: Murilo Silva Gama
 
 var
 lado, area: real
