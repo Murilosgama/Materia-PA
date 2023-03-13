@@ -1,0 +1,22 @@
+algoritmo "AreaDoQuadrado"
+// Disciplina: PA 
+// Professora:
+// Turma:
+// Nome:
+// Data:
+
+var
+lado, area: real
+
+//ENTRADA
+inicio
+escreval ("Digite o lado do quadrado: ")
+leia (lado)
+
+//PROCESSAMENTO
+area <- lado lado
+
+//SAIDA 
+escreval ("A área do quadrado é: ", area)
+
+fimalgoritmo
