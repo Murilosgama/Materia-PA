@@ -14,7 +14,7 @@ leia (rs) escreval
 leia (dolar)
 
 //Processamento
-conversao <- rs dolar
+conversao <- rs* dolar
 
 //Saida 
 escreval ("Você tem", conversao,"reais.")
