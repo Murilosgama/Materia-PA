@@ -17,7 +17,7 @@ escreval ("Digite o valor monetario des vendas do ",nome,"no mês.")
 leia (vendas)
 
 //Processamento 
-salario2 <- salariol (15/100 vendas)
+salario2 <- salariol (15/100* vendas)
 
 //Saida
 escreval ("O salário fixo mais a comissão de ",nome, "torna o valor do salario final em:", salario2)
