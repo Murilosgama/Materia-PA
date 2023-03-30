@@ -18,10 +18,10 @@ escreval ("Digite o quarto numero.")
 leia (n4)
 
 //Processamento
-reso1 <- n1* 2
-reso2 <- n2* 2
-reso3 <- n3* 2
-reso4 <- n4* 2
+reso1 <- n1* n1
+reso2 <- n2* n2
+reso3 <- n3* n3
+reso4 <- n4* n4
 res <- reso1 + reso2 + reso3 + reso4
 
 //Saida
