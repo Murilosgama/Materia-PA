@@ -1,0 +1,24 @@
+Algoritmo "Exercicios"
+//Função: Saláriop final do vendedor
+//Aluno: Murilo Gama
+//Turma: 1°C/B
+
+var
+salariol, vendas, salario2, salario3 : real
+
+//Entrada
+inicio
+escreval ("Digite o valor do produto.")
+leia (salariol)
+escreval ("Digite quantas peças ele vendeu.")
+leia (vendas)
+
+//Processamento
+salario2 <- salariol* vendas
+salario3 <- 5/100* salario2
+
+//Saida
+escreval ("O salário do vendedor é de",salario2)
+escreval ("e o valor da sua comição é de",salario3)
+
+fimalgoritmo
