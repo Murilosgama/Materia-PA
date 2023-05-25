@@ -1,0 +1,30 @@
+Algoritmo "Soma de 4 numeros"
+//Função: Somar numeros
+//Aluno: Murilo Gama
+//Turma: 1°C/B
+
+var
+n1, n2, n3, n4, res, reso1, reso2, reso3, reso4 : real
+
+//Entrada
+inicio
+escreval ("Digite o primeiro numero.")
+leia (n1)
+escreval ("Digite o segundo numero.")
+leia (n2)
+escreval ("Digite o terceiro numero.")
+leia (n3)
+escreval ("Digite o quarto numero.")
+leia (n4)
+
+//Processamento
+reso1 <- n1* n1
+reso2 <- n2* n2
+reso3 <- n3* n3
+reso4 <- n4* n4
+res <- reso1 + reso2 + reso3 + reso4
+
+//Saida
+escreval ("O resultado desta conta é:" ,res)
+
+fimalgoritmo

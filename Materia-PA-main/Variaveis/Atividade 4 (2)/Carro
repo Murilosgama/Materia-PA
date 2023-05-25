@@ -1,0 +1,24 @@
+Algoritmo "Exercicios"
+//Função: Saláriop final do vendedor
+//Aluno: Murilo Gama
+//Turma: 1°C/B
+
+var
+custo, res1, res2, res3, res4, res5 : real
+
+//Entrada
+inicio
+escreval ("Digite o valor do carro.")
+leia (custo)
+
+//Processamento
+res1 <- 45/100* custo
+res2 <- custo + res1
+res3 <- 28/100* res2
+res4 <- res2 + res3
+
+//Saida
+escreval ("O valor do carro mais o imposto é", res2)
+escreval ("O valor final do carro é", res4)
+
+fimalgoritmo
