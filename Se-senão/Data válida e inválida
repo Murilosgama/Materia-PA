@@ -14,7 +14,7 @@ leia(mes)
 escreval ("Ano:")
 leia(ano)
 
-se (dia > 0) e (dia <= 31) e (mes > 0) e (mes <= 12) e (ano <= 2023) entao
+se (dia > 0) e (dia <= 31) e (mes > 0) e (mes > 2) e (mes < 2) e (mes <= 12) e (ano <= 2023) entao
 escreval("A data é válida.")
 senao
 escreval("A data é inválida.")
